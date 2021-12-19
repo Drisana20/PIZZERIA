@@ -1,0 +1,132 @@
+body{
+	background-image: url("https://cdn1.vectorstock.com/i/1000x1000/08/30/realistic-pizza-background-menu-poster-vector-29630830.jpg");
+	
+}
+
+.topnav {
+	overflow: hidden;
+	background-color: #333;
+	position:sticky;
+	top: 0;
+    width: 100%;
+  }
+  
+  .topnav a {
+	float: left;
+	color: #00ffff;
+	font-family: cursive;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+  }
+  
+  .topnav a:hover {
+	background-color: #bbb;
+	color: rgb(252, 247, 0);
+  }
+
+  .topnav-right {
+	float: right;
+  }
+
+  .row::after {
+	content: "";
+	clear: both;
+	display: table;
+  }
+  .img_div{
+	float: left;
+	width: 50%;
+	padding: 5px;
+  }
+  .menu_div{
+	float: right;
+	width: 50%;
+	padding: 160px;
+	color: rgb(0, 255, 0);
+	font-size: 25px;
+	font-family: cursive;
+  }
+  #menu_list{
+	background-color:#f5c71a;
+	color:rgb(6, 64, 253); 
+	width: 200px;
+	border: none;
+  }
+
+  .newRow::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+  .block1{
+	float: left;
+	width: 20%;
+	padding: 5px;
+  }
+  .block2{
+	float: left;
+	width: 80%;
+	padding: 5px;
+	color: rgb(255, 0, 21);
+	font-size: 25px;
+	font-family: cursive;
+  }
+
+  #add_toppings{
+    padding-left:30px; 
+	width:200px;
+	height:100px;
+	border: none;
+	background-color:#fab700;
+	color:rgb(255, 0, 191);
+	font-size: 15px;
+	font-family: cursive;
+  }
+
+  #add_item {
+	font-family: cursive;
+	font-size: 15px;
+	line-height: 20px;
+	width: 80%;
+	height: 50px;
+	color: #db0eff;
+    background: none;
+    border: none;
+    border-bottom: 1px solid rgb(150, 255, 129);
+    outline: none;
+ }
+
+[placeholder]:focus::-webkit-input-placeholder {
+    transition: text-indent 0.4s 0.4s ease; 
+    text-indent: -100%;
+	opacity: 1;
+	color: rgb(8, 129, 44);
+ }
+
+ol.menulist>li
+{
+	padding-bottom:20px;
+}
+
+.cards {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+ }
+ 
+ div.card {
+    flex: 0 0 30%;
+	box-sizing: border-box;
+	color:black;
+	margin: 0.5rem .18em;
+	background-color: rgb(255, 102, 0);
+	align-items: center;
+	font-size: medium;
+}
+.card img{
+	width:100px;
+	height: 80px;
+}
